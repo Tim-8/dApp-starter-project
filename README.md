@@ -1,4 +1,4 @@
-# Create your first dApp.
+# Welcome, WavePortal!
 
 ![](public/ETH-banner-blur.png)
 
