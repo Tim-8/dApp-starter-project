@@ -2,7 +2,7 @@
 
 <img width="680" alt="スクリーンショット 2022-08-21 17 11 00" src="https://user-images.githubusercontent.com/83162960/185814788-63ac3788-d57e-4e98-a812-674e5b133479.png">
 
-[my project](https://my-wave-portal-tim-8.vercel.app)
+[My Project](https://my-wave-portal-tim-8.vercel.app)
 
 <!--![](public/ETH-banner-blur.png)
 このコースを始めるには、下記のステップを実行してください。
