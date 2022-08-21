@@ -1,8 +1,11 @@
 .mainContainer {
   display: flex;
   justify-content: center;
-  width: 100%;
-  margin-top: 64px;
+  width: 100vw;
+  height: 100vh;
+  margin-top: 0px;
+  /*background: rgb(0, 0, 0);*/
+  background: linear-gradient(0deg, #45d638,#000000);
 }
 
 .dataContainer {
@@ -16,11 +19,22 @@
   text-align: center;
   font-size: 32px;
   font-weight: 600;
+  color:rgb(255, 255, 255);
+  -webkit-box-reflect: below -10px -webkit-linear-gradient(top,rgba(0,0,0,0),rgba(0,0,0,0) 5%,rgba(0, 0, 0, 0.6));
+  /*font-family: 'Cherry Swash', cursive;*/
+  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.portal{
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  color:rgb(10, 184, 4);
 }
 
 .bio {
   text-align: center;
-  color: gray;
+  color: rgb(255, 255, 255);
   margin-top: 16px;
 }
 
@@ -28,7 +42,28 @@
   cursor: pointer;
   margin-top: 16px;
   padding: 8px;
-  border: 0;
-  border-radius: 5px;
-  
+  /*border: solid 2px rgb(0, 71, 163);*/
+  border: 8px ridge rgb(10, 184, 4);
+  background: rgb(255, 255, 255);
+  color:black;
+  border-radius: 5px; 
+  transition: .3s;
+  font-family: 'Roboto',arial,sans-serif;
+  font-weight:bold;
+}
+
+.waveButton:hover { 
+  /*opacity: 0.5 ;*/
+  padding: 12.8px;
+  background-color: rgb(10, 184, 4);
+  border: 3px ridge rgb(255, 255, 255);
+  color: #fff;
+}
+
+.messageArea{
+  border-radius: 10px 10px 0px 10px;
+}
+
+.record{
+  border-radius: 10px 10px 10px 10px;  
 }
